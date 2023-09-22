@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="PaginaCpa.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>header</title>
+</head>
+<body>
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header1{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: wrap;
+    padding: .8rem;
+    background-color: #202122;
+    min-height: 30px;
+    width: 100%;
+ 
+
+}
+
+nav{
+    display: flex;
+    gap: 2rem;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+}
+
+.nav-links{
+    text-decoration: none;
+    color: white
+}
+
+.nav-links:hover{
+    color: rgba(255, 255, 255, 0.568);
+    transition: .4s;
+    text-decoration: underline;
+
+}
+	</style>
+    <div class="header1">
+        <header>
+            <nav>
+                <a href="#" class="nav-links">Sobre</a>
+                <a href="#" class="nav-links">Enade</a>
+                <a href="#" class="nav-links">Membros</a>
+                <a href="#" class="nav-links">Documentos</a>
+                <a href="#" class="nav-links">QR</a>
+            </nav>
+            
+        </header>
+    </div>
+</body>
+</html>
